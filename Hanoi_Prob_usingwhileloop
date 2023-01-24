@@ -1,0 +1,15 @@
+a = [1, 2, 3, 4]
+b = []
+r = []
+c = []
+d = a
+k = len(a) 
+while(k!=0) :
+    b = a[0 : k-1]
+    c.append(a[k-1])
+    k -= 1
+    r = b
+    a = r
+c.reverse()
+print(c)
+
